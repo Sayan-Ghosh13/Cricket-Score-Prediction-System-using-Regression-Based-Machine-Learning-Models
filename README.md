@@ -1,6 +1,6 @@
-# 🏏 Cricket Score Prediction using Machine Learning
+# Cricket Score Prediction using Machine Learning
 
-## 📌 Overview
+## Overview
 
 Cricket Score Prediction is a Machine Learning project that predicts the final score of a cricket team during an innings using historical IPL match data. The project applies multiple regression algorithms and compares their performance to identify the most accurate model for score forecasting.
 
@@ -8,7 +8,7 @@ The system leverages match-related features such as batting team, bowling team, 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Predict the final score of a cricket innings using machine learning.
 * Compare the performance of multiple regression models.
@@ -17,7 +17,7 @@ The system leverages match-related features such as batting team, bowling team, 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses an IPL (Indian Premier League) ball-by-ball dataset containing:
 
@@ -48,7 +48,7 @@ The project uses an IPL (Indian Premier League) ball-by-ball dataset containing:
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps were performed:
 
@@ -61,7 +61,7 @@ The following preprocessing steps were performed:
 
 ---
 
-## 🤖 Machine Learning Models Used
+## Machine Learning Models Used
 
 ### 1. Linear Regression
 
@@ -85,7 +85,7 @@ An ensemble learning model that combines multiple decision trees and captures co
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 The models were evaluated using:
 
@@ -95,7 +95,7 @@ The models were evaluated using:
 
 ---
 
-## 🏆 Results
+## Results
 
 ### Validation Set Performance
 
@@ -119,11 +119,11 @@ The models were evaluated using:
 
 ### Best Model
 
-✅ **Random Forest Regression** achieved the highest prediction accuracy with an R² score of **0.9486**, significantly outperforming the other regression models.
+**Random Forest Regression** achieved the highest prediction accuracy with an R² score of **0.9486**, significantly outperforming the other regression models.
 
 ---
 
-## 📉 Visualizations
+## Visualizations
 
 The project includes:
 
@@ -135,7 +135,7 @@ These visualizations help understand prediction quality and compare model effect
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
@@ -147,7 +147,7 @@ These visualizations help understand prediction quality and compare model effect
 
 ---
 
-## 🚀 Project Workflow
+## Project Workflow
 
 1. Data Collection
 2. Data Cleaning
@@ -161,7 +161,7 @@ These visualizations help understand prediction quality and compare model effect
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Cricket-Score-Prediction/
@@ -181,7 +181,7 @@ Cricket-Score-Prediction/
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Incorporate live match data streams.
 * Use Deep Learning models such as LSTM and GRU.
@@ -191,6 +191,6 @@ Cricket-Score-Prediction/
 
 ---
 
-## 📚 Conclusion
+## Conclusion
 
 This project demonstrates the application of Machine Learning in sports analytics by predicting cricket innings scores using IPL match data. Among all evaluated models, Random Forest Regression delivered the best performance, proving that ensemble learning techniques are highly effective for capturing complex cricket scoring patterns.
